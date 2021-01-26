@@ -1,0 +1,25 @@
+
+em {
+    color: blue;
+}
+
+p em {
+    color: red;
+}
+
+ /* Direct child */
+ body > footer {
+    color:limegreen;
+}
+/* Adjacent-sibling combinator  */
+h1 + p{
+   color:purple;
+}
+/* all siblings  */
+h1 ~ p {
+   background-color: grey;
+}
+/* p:hover -- pseduo class  */
+p.hover:hover{
+   background-color:#ffd800;
+}
