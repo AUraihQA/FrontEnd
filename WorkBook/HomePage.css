@@ -1,9 +1,7 @@
-image {
-    float: left;
-  }
-  image1 {
-    float: right;
-  }
-  image2 {
-    float: middle;
-  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: blue;
+}
