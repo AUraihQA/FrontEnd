@@ -33,3 +33,5 @@ const additionwithvals = (number1,number2) => {
     console.log(number1+number2);
 }
 additionwithvals(23,4);
+
+let points = (a,b,c = a*2+b*3) => console.log(c);
